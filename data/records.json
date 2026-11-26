@@ -1,0 +1,3486 @@
+{
+ "dataset": "raildesk-v1",
+ "synthetic": true,
+ "counts": {
+  "internal_bookings": 120,
+  "gateway_records": 132,
+  "events": 190,
+  "waitlist_entries": 21
+ },
+ "internal_bookings": [
+  {
+   "booking_id": "PNR-5000",
+   "train_no": "12951",
+   "fare_paise": 45000,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5001",
+   "train_no": "12309",
+   "fare_paise": 46370,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5002",
+   "train_no": "22691",
+   "fare_paise": 47740,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 3,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5003",
+   "train_no": "12627",
+   "fare_paise": 49110,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5004",
+   "train_no": "12002",
+   "fare_paise": 50480,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5005",
+   "train_no": "12859",
+   "fare_paise": 51850,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5006",
+   "train_no": "12951",
+   "fare_paise": 53220,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5007",
+   "train_no": "12309",
+   "fare_paise": 54590,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5008",
+   "train_no": "22691",
+   "fare_paise": 55960,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 9,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5009",
+   "train_no": "12627",
+   "fare_paise": 57330,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5010",
+   "train_no": "12002",
+   "fare_paise": 58700,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5011",
+   "train_no": "12859",
+   "fare_paise": 60070,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5012",
+   "train_no": "12951",
+   "fare_paise": 61440,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5013",
+   "train_no": "12309",
+   "fare_paise": 62810,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5014",
+   "train_no": "22691",
+   "fare_paise": 64180,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 15,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5015",
+   "train_no": "12627",
+   "fare_paise": 65550,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5016",
+   "train_no": "12002",
+   "fare_paise": 66920,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5017",
+   "train_no": "12859",
+   "fare_paise": 68290,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5018",
+   "train_no": "12951",
+   "fare_paise": 69660,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5019",
+   "train_no": "12309",
+   "fare_paise": 71030,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5020",
+   "train_no": "22691",
+   "fare_paise": 72400,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 21,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5021",
+   "train_no": "12627",
+   "fare_paise": 73770,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5022",
+   "train_no": "12002",
+   "fare_paise": 75140,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5023",
+   "train_no": "12859",
+   "fare_paise": 76510,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5024",
+   "train_no": "12951",
+   "fare_paise": 77880,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5025",
+   "train_no": "12309",
+   "fare_paise": 79250,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5026",
+   "train_no": "22691",
+   "fare_paise": 80620,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 27,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5027",
+   "train_no": "12627",
+   "fare_paise": 81990,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5028",
+   "train_no": "12002",
+   "fare_paise": 83360,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5029",
+   "train_no": "12859",
+   "fare_paise": 84730,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5030",
+   "train_no": "12951",
+   "fare_paise": 86100,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5031",
+   "train_no": "12309",
+   "fare_paise": 87470,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5032",
+   "train_no": "22691",
+   "fare_paise": 88840,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 3,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5033",
+   "train_no": "12627",
+   "fare_paise": 90210,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5034",
+   "train_no": "12002",
+   "fare_paise": 91580,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5035",
+   "train_no": "12859",
+   "fare_paise": 92950,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5036",
+   "train_no": "12951",
+   "fare_paise": 94320,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5037",
+   "train_no": "12309",
+   "fare_paise": 95690,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5038",
+   "train_no": "22691",
+   "fare_paise": 97060,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 9,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5039",
+   "train_no": "12627",
+   "fare_paise": 98430,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5040",
+   "train_no": "12002",
+   "fare_paise": 99800,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5041",
+   "train_no": "12859",
+   "fare_paise": 101170,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5042",
+   "train_no": "12951",
+   "fare_paise": 102540,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5043",
+   "train_no": "12309",
+   "fare_paise": 103910,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5044",
+   "train_no": "22691",
+   "fare_paise": 105280,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 15,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5045",
+   "train_no": "12627",
+   "fare_paise": 106650,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5046",
+   "train_no": "12002",
+   "fare_paise": 108020,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5047",
+   "train_no": "12859",
+   "fare_paise": 109390,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5048",
+   "train_no": "12951",
+   "fare_paise": 110760,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5049",
+   "train_no": "12309",
+   "fare_paise": 112130,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5050",
+   "train_no": "22691",
+   "fare_paise": 113500,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 21,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5051",
+   "train_no": "12627",
+   "fare_paise": 114870,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5052",
+   "train_no": "12002",
+   "fare_paise": 116240,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5053",
+   "train_no": "12859",
+   "fare_paise": 117610,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5054",
+   "train_no": "12951",
+   "fare_paise": 118980,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5055",
+   "train_no": "12309",
+   "fare_paise": 120350,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5056",
+   "train_no": "22691",
+   "fare_paise": 121720,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 27,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5057",
+   "train_no": "12627",
+   "fare_paise": 123090,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5058",
+   "train_no": "12002",
+   "fare_paise": 124460,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5059",
+   "train_no": "12859",
+   "fare_paise": 125830,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5060",
+   "train_no": "12951",
+   "fare_paise": 127200,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5061",
+   "train_no": "12309",
+   "fare_paise": 128570,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5062",
+   "train_no": "22691",
+   "fare_paise": 129940,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 3,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5063",
+   "train_no": "12627",
+   "fare_paise": 131310,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5064",
+   "train_no": "12002",
+   "fare_paise": 132680,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5065",
+   "train_no": "12859",
+   "fare_paise": 134050,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5066",
+   "train_no": "12951",
+   "fare_paise": 135420,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5067",
+   "train_no": "12309",
+   "fare_paise": 136790,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5068",
+   "train_no": "22691",
+   "fare_paise": 138160,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 9,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5069",
+   "train_no": "12627",
+   "fare_paise": 139530,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5070",
+   "train_no": "12002",
+   "fare_paise": 140900,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5071",
+   "train_no": "12859",
+   "fare_paise": 142270,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5072",
+   "train_no": "12951",
+   "fare_paise": 143640,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5073",
+   "train_no": "12309",
+   "fare_paise": 145010,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5074",
+   "train_no": "22691",
+   "fare_paise": 146380,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 15,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5075",
+   "train_no": "12627",
+   "fare_paise": 147750,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5076",
+   "train_no": "12002",
+   "fare_paise": 149120,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5077",
+   "train_no": "12859",
+   "fare_paise": 150490,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5078",
+   "train_no": "12951",
+   "fare_paise": 151860,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5079",
+   "train_no": "12309",
+   "fare_paise": 153230,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5080",
+   "train_no": "22691",
+   "fare_paise": 154600,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 21,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5081",
+   "train_no": "12627",
+   "fare_paise": 155970,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5082",
+   "train_no": "12002",
+   "fare_paise": 157340,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5083",
+   "train_no": "12859",
+   "fare_paise": 158710,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5084",
+   "train_no": "12951",
+   "fare_paise": 160080,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5085",
+   "train_no": "12309",
+   "fare_paise": 161450,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5086",
+   "train_no": "22691",
+   "fare_paise": 162820,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 27,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5087",
+   "train_no": "12627",
+   "fare_paise": 164190,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5088",
+   "train_no": "12002",
+   "fare_paise": 165560,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5089",
+   "train_no": "12859",
+   "fare_paise": 166930,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5090",
+   "train_no": "12951",
+   "fare_paise": 168300,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5091",
+   "train_no": "12309",
+   "fare_paise": 169670,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5092",
+   "train_no": "22691",
+   "fare_paise": 171040,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 3,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5093",
+   "train_no": "12627",
+   "fare_paise": 172410,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5094",
+   "train_no": "12002",
+   "fare_paise": 173780,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5095",
+   "train_no": "12859",
+   "fare_paise": 175150,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5096",
+   "train_no": "12951",
+   "fare_paise": 176520,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5097",
+   "train_no": "12309",
+   "fare_paise": 177890,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5098",
+   "train_no": "22691",
+   "fare_paise": 179260,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 9,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5099",
+   "train_no": "12627",
+   "fare_paise": 180630,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5100",
+   "train_no": "12002",
+   "fare_paise": 182000,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5101",
+   "train_no": "12859",
+   "fare_paise": 183370,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5102",
+   "train_no": "12951",
+   "fare_paise": 184740,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5103",
+   "train_no": "12309",
+   "fare_paise": 186110,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5104",
+   "train_no": "22691",
+   "fare_paise": 187480,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 15,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5105",
+   "train_no": "12627",
+   "fare_paise": 188850,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5106",
+   "train_no": "12002",
+   "fare_paise": 190220,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5107",
+   "train_no": "12859",
+   "fare_paise": 191590,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5108",
+   "train_no": "12951",
+   "fare_paise": 192960,
+   "passengers": 1,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5109",
+   "train_no": "12309",
+   "fare_paise": 194330,
+   "passengers": 2,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5110",
+   "train_no": "22691",
+   "fare_paise": 195700,
+   "passengers": 3,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 21,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  },
+  {
+   "booking_id": "PNR-5111",
+   "train_no": "12627",
+   "fare_paise": 197070,
+   "passengers": 4,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 12
+  },
+  {
+   "booking_id": "PNR-5112",
+   "train_no": "12002",
+   "fare_paise": 198440,
+   "passengers": 1,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5113",
+   "train_no": "12859",
+   "fare_paise": 199810,
+   "passengers": 2,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 47.9
+  },
+  {
+   "booking_id": "PNR-5114",
+   "train_no": "12951",
+   "fare_paise": 201180,
+   "passengers": 3,
+   "status": "CREATED",
+   "payment_status": "UNPAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 48
+  },
+  {
+   "booking_id": "PNR-5115",
+   "train_no": "12309",
+   "fare_paise": 202550,
+   "passengers": 4,
+   "status": "CONFIRMED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 72
+  },
+  {
+   "booking_id": "PNR-5116",
+   "train_no": "22691",
+   "fare_paise": 203920,
+   "passengers": 1,
+   "status": "WAITLISTED",
+   "payment_status": "PAID",
+   "waitlist_position": 27,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 120
+  },
+  {
+   "booking_id": "PNR-5117",
+   "train_no": "12627",
+   "fare_paise": 205290,
+   "passengers": 2,
+   "status": "CHARTED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 0
+  },
+  {
+   "booking_id": "PNR-5118",
+   "train_no": "12002",
+   "fare_paise": 206660,
+   "passengers": 3,
+   "status": "COMPLETED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 6
+  },
+  {
+   "booking_id": "PNR-5119",
+   "train_no": "12859",
+   "fare_paise": 208030,
+   "passengers": 4,
+   "status": "CANCELLED",
+   "payment_status": "PAID",
+   "waitlist_position": null,
+   "cancellation_fee_paise": 0,
+   "refund_due_paise": 0,
+   "settled_paise": 0,
+   "processed_event_ids": [],
+   "hours_to_departure": 11.5
+  }
+ ],
+ "gateway_settlements": [
+  {
+   "booking_id": "PNR-5000",
+   "amount_paise": 45000,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5001",
+   "amount_paise": 46370,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5002",
+   "amount_paise": 47740,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5003",
+   "amount_paise": 49010,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5004",
+   "amount_paise": 50480,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5006",
+   "amount_paise": 53220,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5007",
+   "amount_paise": 54590,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5008",
+   "amount_paise": 55960,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5009",
+   "amount_paise": 57330,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5010",
+   "amount_paise": 58700,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5011",
+   "amount_paise": 60070,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5012",
+   "amount_paise": 61440,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5013",
+   "amount_paise": 62810,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5014",
+   "amount_paise": 64180,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5015",
+   "amount_paise": 65550,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5016",
+   "amount_paise": 66820,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5017",
+   "amount_paise": 68290,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5018",
+   "amount_paise": 69660,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5019",
+   "amount_paise": 71030,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5020",
+   "amount_paise": 72400,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5021",
+   "amount_paise": 73770,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5023",
+   "amount_paise": 76510,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5024",
+   "amount_paise": 77880,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5025",
+   "amount_paise": 79250,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5026",
+   "amount_paise": 80620,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5027",
+   "amount_paise": 81990,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5028",
+   "amount_paise": 83360,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5029",
+   "amount_paise": 84630,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5030",
+   "amount_paise": 86100,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5031",
+   "amount_paise": 87470,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5032",
+   "amount_paise": 88840,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5033",
+   "amount_paise": 90210,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5034",
+   "amount_paise": 91580,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5035",
+   "amount_paise": 92950,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5036",
+   "amount_paise": 94320,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5037",
+   "amount_paise": 95690,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5038",
+   "amount_paise": 97060,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5040",
+   "amount_paise": 99800,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5041",
+   "amount_paise": 101170,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5042",
+   "amount_paise": 102440,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5043",
+   "amount_paise": 103910,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5044",
+   "amount_paise": 105280,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5045",
+   "amount_paise": 106650,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5046",
+   "amount_paise": 108020,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5047",
+   "amount_paise": 109390,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5048",
+   "amount_paise": 110760,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5049",
+   "amount_paise": 112130,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5050",
+   "amount_paise": 113500,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5051",
+   "amount_paise": 114870,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5052",
+   "amount_paise": 116240,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5053",
+   "amount_paise": 117610,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5054",
+   "amount_paise": 118980,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5055",
+   "amount_paise": 120250,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5057",
+   "amount_paise": 123090,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5058",
+   "amount_paise": 124460,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5059",
+   "amount_paise": 125830,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5060",
+   "amount_paise": 127200,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5061",
+   "amount_paise": 128570,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5062",
+   "amount_paise": 129940,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5063",
+   "amount_paise": 131310,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5064",
+   "amount_paise": 132680,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5065",
+   "amount_paise": 134050,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5066",
+   "amount_paise": 135420,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5067",
+   "amount_paise": 136790,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5068",
+   "amount_paise": 138060,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5069",
+   "amount_paise": 139530,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5070",
+   "amount_paise": 140900,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5071",
+   "amount_paise": 142270,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5072",
+   "amount_paise": 143640,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5074",
+   "amount_paise": 146380,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5075",
+   "amount_paise": 147750,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5076",
+   "amount_paise": 149120,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5077",
+   "amount_paise": 150490,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5078",
+   "amount_paise": 151860,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5079",
+   "amount_paise": 153230,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5080",
+   "amount_paise": 154600,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5081",
+   "amount_paise": 155870,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5082",
+   "amount_paise": 157340,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5083",
+   "amount_paise": 158710,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5084",
+   "amount_paise": 160080,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5085",
+   "amount_paise": 161450,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5086",
+   "amount_paise": 162820,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5087",
+   "amount_paise": 164190,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5088",
+   "amount_paise": 165560,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5089",
+   "amount_paise": 166930,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5091",
+   "amount_paise": 169670,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5092",
+   "amount_paise": 171040,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5093",
+   "amount_paise": 172410,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5094",
+   "amount_paise": 173680,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5095",
+   "amount_paise": 175150,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5096",
+   "amount_paise": 176520,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5097",
+   "amount_paise": 177890,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5098",
+   "amount_paise": 179260,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5099",
+   "amount_paise": 180630,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5100",
+   "amount_paise": 182000,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5101",
+   "amount_paise": 183370,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5102",
+   "amount_paise": 184740,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5103",
+   "amount_paise": 186110,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5104",
+   "amount_paise": 187480,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5105",
+   "amount_paise": 188850,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5106",
+   "amount_paise": 190220,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5108",
+   "amount_paise": 192960,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5109",
+   "amount_paise": 194330,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5110",
+   "amount_paise": 195700,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5111",
+   "amount_paise": 197070,
+   "status": "CHARTED"
+  },
+  {
+   "booking_id": "PNR-5112",
+   "amount_paise": 198440,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5113",
+   "amount_paise": 199810,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5114",
+   "amount_paise": 201180,
+   "status": "CREATED"
+  },
+  {
+   "booking_id": "PNR-5115",
+   "amount_paise": 202550,
+   "status": "CONFIRMED"
+  },
+  {
+   "booking_id": "PNR-5116",
+   "amount_paise": 203920,
+   "status": "WAITLISTED"
+  },
+  {
+   "booking_id": "PNR-5117",
+   "amount_paise": 205290,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5118",
+   "amount_paise": 206660,
+   "status": "COMPLETED"
+  },
+  {
+   "booking_id": "PNR-5119",
+   "amount_paise": 208030,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9000",
+   "amount_paise": 60000,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9001",
+   "amount_paise": 60775,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9002",
+   "amount_paise": 61550,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9003",
+   "amount_paise": 62325,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9004",
+   "amount_paise": 63100,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9005",
+   "amount_paise": 63875,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9006",
+   "amount_paise": 64650,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9007",
+   "amount_paise": 65425,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9008",
+   "amount_paise": 66200,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9009",
+   "amount_paise": 66975,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9010",
+   "amount_paise": 67750,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9011",
+   "amount_paise": 68525,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9012",
+   "amount_paise": 69300,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9013",
+   "amount_paise": 70075,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9014",
+   "amount_paise": 70850,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9015",
+   "amount_paise": 71625,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9016",
+   "amount_paise": 72400,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-9017",
+   "amount_paise": 73175,
+   "status": "CANCELLED"
+  },
+  {
+   "booking_id": "PNR-5000",
+   "amount_paise": 45000,
+   "status": "CREATED"
+  }
+ ],
+ "events": [
+  {
+   "event_id": "EVT-3000",
+   "booking_id": "PNR-5000",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3001",
+   "booking_id": "PNR-5001",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3002",
+   "booking_id": "PNR-5002",
+   "type": "waitlisted",
+   "position": 3
+  },
+  {
+   "event_id": "EVT-3003",
+   "booking_id": "PNR-5003",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3004",
+   "booking_id": "PNR-5004",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3004",
+   "booking_id": "PNR-5004",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3006",
+   "booking_id": "PNR-5005",
+   "type": "cancel_requested",
+   "hours_to_departure": 47.9
+  },
+  {
+   "event_id": "EVT-3007",
+   "booking_id": "PNR-5006",
+   "type": "refund_settled",
+   "amount_paise": -500
+  },
+  {
+   "event_id": "EVT-3008",
+   "booking_id": "PNR-5007",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3009",
+   "booking_id": "PNR-5008",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3010",
+   "booking_id": "PNR-5009",
+   "type": "waitlisted",
+   "position": 10
+  },
+  {
+   "booking_id": "PNR-5009",
+   "type": "waitlisted",
+   "position": 10
+  },
+  {
+   "event_id": "EVT-3012",
+   "booking_id": "PNR-5010",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3013",
+   "booking_id": "PNR-5011",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-X11",
+   "booking_id": "PNR-5011",
+   "type": "teleported"
+  },
+  {
+   "event_id": "EVT-3015",
+   "booking_id": "PNR-5012",
+   "type": "cancel_requested",
+   "hours_to_departure": 24
+  },
+  {
+   "event_id": "EVT-3016",
+   "booking_id": "PNR-5013",
+   "type": "refund_settled",
+   "amount_paise": 0
+  },
+  {
+   "event_id": "EVT-Y13",
+   "booking_id": "PNR-0000",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3018",
+   "booking_id": "PNR-5014",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3019",
+   "booking_id": "PNR-5015",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3020",
+   "booking_id": "PNR-5016",
+   "type": "waitlisted",
+   "position": 17
+  },
+  {
+   "event_id": "EVT-3021",
+   "booking_id": "PNR-5017",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3022",
+   "booking_id": "PNR-5018",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3023",
+   "booking_id": "PNR-5019",
+   "type": "cancel_requested",
+   "hours_to_departure": 12
+  },
+  {
+   "event_id": "EVT-3024",
+   "booking_id": "PNR-5020",
+   "type": "refund_settled",
+   "amount_paise": 1
+  },
+  {
+   "event_id": "EVT-3025",
+   "booking_id": "PNR-5021",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3026",
+   "booking_id": "PNR-5022",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3027",
+   "booking_id": "PNR-5023",
+   "type": "waitlisted",
+   "position": 24
+  },
+  {
+   "event_id": "EVT-3027",
+   "booking_id": "PNR-5023",
+   "type": "waitlisted",
+   "position": 24
+  },
+  {
+   "event_id": "EVT-3029",
+   "booking_id": "PNR-5024",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3030",
+   "booking_id": "PNR-5025",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3031",
+   "booking_id": "PNR-5026",
+   "type": "cancel_requested",
+   "hours_to_departure": 11.5
+  },
+  {
+   "event_id": "EVT-3032",
+   "booking_id": "PNR-5027",
+   "type": "refund_settled",
+   "amount_paise": 12000
+  },
+  {
+   "event_id": "EVT-3033",
+   "booking_id": "PNR-5028",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3034",
+   "booking_id": "PNR-5029",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3035",
+   "booking_id": "PNR-5030",
+   "type": "waitlisted",
+   "position": 6
+  },
+  {
+   "event_id": "EVT-3036",
+   "booking_id": "PNR-5031",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3037",
+   "booking_id": "PNR-5032",
+   "type": "journey_completed"
+  },
+  {
+   "booking_id": "PNR-5032",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3039",
+   "booking_id": "PNR-5033",
+   "type": "cancel_requested",
+   "hours_to_departure": 6
+  },
+  {
+   "event_id": "EVT-3040",
+   "booking_id": "PNR-5034",
+   "type": "refund_settled",
+   "amount_paise": 45000
+  },
+  {
+   "event_id": "EVT-3041",
+   "booking_id": "PNR-5035",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3042",
+   "booking_id": "PNR-5036",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3043",
+   "booking_id": "PNR-5037",
+   "type": "waitlisted",
+   "position": 13
+  },
+  {
+   "event_id": "EVT-3044",
+   "booking_id": "PNR-5038",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3045",
+   "booking_id": "PNR-5039",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3046",
+   "booking_id": "PNR-5040",
+   "type": "cancel_requested",
+   "hours_to_departure": 0
+  },
+  {
+   "event_id": "EVT-X40",
+   "booking_id": "PNR-5040",
+   "type": "teleported"
+  },
+  {
+   "event_id": "EVT-3048",
+   "booking_id": "PNR-5041",
+   "type": "refund_settled",
+   "amount_paise": 999999
+  },
+  {
+   "event_id": "EVT-3049",
+   "booking_id": "PNR-5042",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3049",
+   "booking_id": "PNR-5042",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3051",
+   "booking_id": "PNR-5043",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3052",
+   "booking_id": "PNR-5044",
+   "type": "waitlisted",
+   "position": 20
+  },
+  {
+   "event_id": "EVT-Y44",
+   "booking_id": "PNR-0000",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3054",
+   "booking_id": "PNR-5045",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3055",
+   "booking_id": "PNR-5046",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3056",
+   "booking_id": "PNR-5047",
+   "type": "cancel_requested",
+   "hours_to_departure": 72
+  },
+  {
+   "event_id": "EVT-3057",
+   "booking_id": "PNR-5048",
+   "type": "refund_settled",
+   "amount_paise": -500
+  },
+  {
+   "event_id": "EVT-3058",
+   "booking_id": "PNR-5049",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3059",
+   "booking_id": "PNR-5050",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3060",
+   "booking_id": "PNR-5051",
+   "type": "waitlisted",
+   "position": 2
+  },
+  {
+   "event_id": "EVT-3061",
+   "booking_id": "PNR-5052",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3062",
+   "booking_id": "PNR-5053",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3063",
+   "booking_id": "PNR-5054",
+   "type": "cancel_requested",
+   "hours_to_departure": 48
+  },
+  {
+   "event_id": "EVT-3064",
+   "booking_id": "PNR-5055",
+   "type": "refund_settled",
+   "amount_paise": 0
+  },
+  {
+   "booking_id": "PNR-5055",
+   "type": "refund_settled",
+   "amount_paise": 0
+  },
+  {
+   "event_id": "EVT-3066",
+   "booking_id": "PNR-5056",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3067",
+   "booking_id": "PNR-5057",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3068",
+   "booking_id": "PNR-5058",
+   "type": "waitlisted",
+   "position": 9
+  },
+  {
+   "event_id": "EVT-3069",
+   "booking_id": "PNR-5059",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3070",
+   "booking_id": "PNR-5060",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3071",
+   "booking_id": "PNR-5061",
+   "type": "cancel_requested",
+   "hours_to_departure": 47.9
+  },
+  {
+   "event_id": "EVT-3071",
+   "booking_id": "PNR-5061",
+   "type": "cancel_requested",
+   "hours_to_departure": 47.9
+  },
+  {
+   "event_id": "EVT-3073",
+   "booking_id": "PNR-5062",
+   "type": "refund_settled",
+   "amount_paise": 1
+  },
+  {
+   "event_id": "EVT-3074",
+   "booking_id": "PNR-5063",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3075",
+   "booking_id": "PNR-5064",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3076",
+   "booking_id": "PNR-5065",
+   "type": "waitlisted",
+   "position": 16
+  },
+  {
+   "event_id": "EVT-3077",
+   "booking_id": "PNR-5066",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3078",
+   "booking_id": "PNR-5067",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3079",
+   "booking_id": "PNR-5068",
+   "type": "cancel_requested",
+   "hours_to_departure": 24
+  },
+  {
+   "event_id": "EVT-3080",
+   "booking_id": "PNR-5069",
+   "type": "refund_settled",
+   "amount_paise": 12000
+  },
+  {
+   "event_id": "EVT-X69",
+   "booking_id": "PNR-5069",
+   "type": "teleported"
+  },
+  {
+   "event_id": "EVT-3082",
+   "booking_id": "PNR-5070",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3083",
+   "booking_id": "PNR-5071",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3084",
+   "booking_id": "PNR-5072",
+   "type": "waitlisted",
+   "position": 23
+  },
+  {
+   "event_id": "EVT-3085",
+   "booking_id": "PNR-5073",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3086",
+   "booking_id": "PNR-5074",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3087",
+   "booking_id": "PNR-5075",
+   "type": "cancel_requested",
+   "hours_to_departure": 12
+  },
+  {
+   "event_id": "EVT-Y75",
+   "booking_id": "PNR-0000",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3089",
+   "booking_id": "PNR-5076",
+   "type": "refund_settled",
+   "amount_paise": 45000
+  },
+  {
+   "event_id": "EVT-3090",
+   "booking_id": "PNR-5077",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3091",
+   "booking_id": "PNR-5078",
+   "type": "booking_confirmed"
+  },
+  {
+   "booking_id": "PNR-5078",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3093",
+   "booking_id": "PNR-5079",
+   "type": "waitlisted",
+   "position": 5
+  },
+  {
+   "event_id": "EVT-3094",
+   "booking_id": "PNR-5080",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3094",
+   "booking_id": "PNR-5080",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3096",
+   "booking_id": "PNR-5081",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3097",
+   "booking_id": "PNR-5082",
+   "type": "cancel_requested",
+   "hours_to_departure": 11.5
+  },
+  {
+   "event_id": "EVT-3098",
+   "booking_id": "PNR-5083",
+   "type": "refund_settled",
+   "amount_paise": 999999
+  },
+  {
+   "event_id": "EVT-3099",
+   "booking_id": "PNR-5084",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3100",
+   "booking_id": "PNR-5085",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3101",
+   "booking_id": "PNR-5086",
+   "type": "waitlisted",
+   "position": 12
+  },
+  {
+   "event_id": "EVT-3102",
+   "booking_id": "PNR-5087",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3103",
+   "booking_id": "PNR-5088",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3104",
+   "booking_id": "PNR-5089",
+   "type": "cancel_requested",
+   "hours_to_departure": 6
+  },
+  {
+   "event_id": "EVT-3105",
+   "booking_id": "PNR-5090",
+   "type": "refund_settled",
+   "amount_paise": -500
+  },
+  {
+   "event_id": "EVT-3106",
+   "booking_id": "PNR-5091",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3107",
+   "booking_id": "PNR-5092",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3108",
+   "booking_id": "PNR-5093",
+   "type": "waitlisted",
+   "position": 19
+  },
+  {
+   "event_id": "EVT-3109",
+   "booking_id": "PNR-5094",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3110",
+   "booking_id": "PNR-5095",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3111",
+   "booking_id": "PNR-5096",
+   "type": "cancel_requested",
+   "hours_to_departure": 0
+  },
+  {
+   "event_id": "EVT-3112",
+   "booking_id": "PNR-5097",
+   "type": "refund_settled",
+   "amount_paise": 0
+  },
+  {
+   "event_id": "EVT-3113",
+   "booking_id": "PNR-5098",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-X98",
+   "booking_id": "PNR-5098",
+   "type": "teleported"
+  },
+  {
+   "event_id": "EVT-3115",
+   "booking_id": "PNR-5099",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3115",
+   "booking_id": "PNR-5099",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3117",
+   "booking_id": "PNR-5100",
+   "type": "waitlisted",
+   "position": 1
+  },
+  {
+   "event_id": "EVT-3118",
+   "booking_id": "PNR-5101",
+   "type": "chart_prepared"
+  },
+  {
+   "booking_id": "PNR-5101",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3120",
+   "booking_id": "PNR-5102",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3121",
+   "booking_id": "PNR-5103",
+   "type": "cancel_requested",
+   "hours_to_departure": 72
+  },
+  {
+   "event_id": "EVT-3122",
+   "booking_id": "PNR-5104",
+   "type": "refund_settled",
+   "amount_paise": 1
+  },
+  {
+   "event_id": "EVT-3123",
+   "booking_id": "PNR-5105",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3124",
+   "booking_id": "PNR-5106",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-Y106",
+   "booking_id": "PNR-0000",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3126",
+   "booking_id": "PNR-5107",
+   "type": "waitlisted",
+   "position": 8
+  },
+  {
+   "event_id": "EVT-3127",
+   "booking_id": "PNR-5108",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3128",
+   "booking_id": "PNR-5109",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3129",
+   "booking_id": "PNR-5110",
+   "type": "cancel_requested",
+   "hours_to_departure": 48
+  },
+  {
+   "event_id": "EVT-3130",
+   "booking_id": "PNR-5111",
+   "type": "refund_settled",
+   "amount_paise": 12000
+  },
+  {
+   "event_id": "EVT-3131",
+   "booking_id": "PNR-5112",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3132",
+   "booking_id": "PNR-5113",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3133",
+   "booking_id": "PNR-5114",
+   "type": "waitlisted",
+   "position": 15
+  },
+  {
+   "event_id": "EVT-3134",
+   "booking_id": "PNR-5115",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3135",
+   "booking_id": "PNR-5116",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3136",
+   "booking_id": "PNR-5117",
+   "type": "cancel_requested",
+   "hours_to_departure": 47.9
+  },
+  {
+   "event_id": "EVT-3137",
+   "booking_id": "PNR-5118",
+   "type": "refund_settled",
+   "amount_paise": 45000
+  },
+  {
+   "event_id": "EVT-3137",
+   "booking_id": "PNR-5118",
+   "type": "refund_settled",
+   "amount_paise": 45000
+  },
+  {
+   "event_id": "EVT-3139",
+   "booking_id": "PNR-5119",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3140",
+   "booking_id": "PNR-5000",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3141",
+   "booking_id": "PNR-5001",
+   "type": "waitlisted",
+   "position": 22
+  },
+  {
+   "event_id": "EVT-3142",
+   "booking_id": "PNR-5002",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3143",
+   "booking_id": "PNR-5003",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3144",
+   "booking_id": "PNR-5004",
+   "type": "cancel_requested",
+   "hours_to_departure": 24
+  },
+  {
+   "booking_id": "PNR-5004",
+   "type": "cancel_requested",
+   "hours_to_departure": 24
+  },
+  {
+   "event_id": "EVT-3146",
+   "booking_id": "PNR-5005",
+   "type": "refund_settled",
+   "amount_paise": 999999
+  },
+  {
+   "event_id": "EVT-3147",
+   "booking_id": "PNR-5006",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3148",
+   "booking_id": "PNR-5007",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-X127",
+   "booking_id": "PNR-5007",
+   "type": "teleported"
+  },
+  {
+   "event_id": "EVT-3150",
+   "booking_id": "PNR-5008",
+   "type": "waitlisted",
+   "position": 4
+  },
+  {
+   "event_id": "EVT-3151",
+   "booking_id": "PNR-5009",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3152",
+   "booking_id": "PNR-5010",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3153",
+   "booking_id": "PNR-5011",
+   "type": "cancel_requested",
+   "hours_to_departure": 12
+  },
+  {
+   "event_id": "EVT-3154",
+   "booking_id": "PNR-5012",
+   "type": "refund_settled",
+   "amount_paise": -500
+  },
+  {
+   "event_id": "EVT-3155",
+   "booking_id": "PNR-5013",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3156",
+   "booking_id": "PNR-5014",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3157",
+   "booking_id": "PNR-5015",
+   "type": "waitlisted",
+   "position": 11
+  },
+  {
+   "event_id": "EVT-3158",
+   "booking_id": "PNR-5016",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3159",
+   "booking_id": "PNR-5017",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3159",
+   "booking_id": "PNR-5017",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-Y137",
+   "booking_id": "PNR-0000",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3162",
+   "booking_id": "PNR-5018",
+   "type": "cancel_requested",
+   "hours_to_departure": 11.5
+  },
+  {
+   "event_id": "EVT-3163",
+   "booking_id": "PNR-5019",
+   "type": "refund_settled",
+   "amount_paise": 0
+  },
+  {
+   "event_id": "EVT-3164",
+   "booking_id": "PNR-5020",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3165",
+   "booking_id": "PNR-5021",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3166",
+   "booking_id": "PNR-5022",
+   "type": "waitlisted",
+   "position": 18
+  },
+  {
+   "event_id": "EVT-3167",
+   "booking_id": "PNR-5023",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3168",
+   "booking_id": "PNR-5024",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3169",
+   "booking_id": "PNR-5025",
+   "type": "cancel_requested",
+   "hours_to_departure": 6
+  },
+  {
+   "event_id": "EVT-3170",
+   "booking_id": "PNR-5026",
+   "type": "refund_settled",
+   "amount_paise": 1
+  },
+  {
+   "event_id": "EVT-3171",
+   "booking_id": "PNR-5027",
+   "type": "payment_captured"
+  },
+  {
+   "booking_id": "PNR-5027",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3173",
+   "booking_id": "PNR-5028",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3174",
+   "booking_id": "PNR-5029",
+   "type": "waitlisted",
+   "position": 25
+  },
+  {
+   "event_id": "EVT-3175",
+   "booking_id": "PNR-5030",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3176",
+   "booking_id": "PNR-5031",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3177",
+   "booking_id": "PNR-5032",
+   "type": "cancel_requested",
+   "hours_to_departure": 0
+  },
+  {
+   "event_id": "EVT-3178",
+   "booking_id": "PNR-5033",
+   "type": "refund_settled",
+   "amount_paise": 12000
+  },
+  {
+   "event_id": "EVT-3179",
+   "booking_id": "PNR-5034",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3180",
+   "booking_id": "PNR-5035",
+   "type": "booking_confirmed"
+  },
+  {
+   "event_id": "EVT-3181",
+   "booking_id": "PNR-5036",
+   "type": "waitlisted",
+   "position": 7
+  },
+  {
+   "event_id": "EVT-3181",
+   "booking_id": "PNR-5036",
+   "type": "waitlisted",
+   "position": 7
+  },
+  {
+   "event_id": "EVT-X156",
+   "booking_id": "PNR-5036",
+   "type": "teleported"
+  },
+  {
+   "event_id": "EVT-3184",
+   "booking_id": "PNR-5037",
+   "type": "chart_prepared"
+  },
+  {
+   "event_id": "EVT-3185",
+   "booking_id": "PNR-5038",
+   "type": "journey_completed"
+  },
+  {
+   "event_id": "EVT-3186",
+   "booking_id": "PNR-5039",
+   "type": "cancel_requested",
+   "hours_to_departure": 72
+  },
+  {
+   "event_id": "EVT-3187",
+   "booking_id": "PNR-5040",
+   "type": "refund_settled",
+   "amount_paise": 45000
+  },
+  {
+   "event_id": "EVT-3188",
+   "booking_id": "PNR-5041",
+   "type": "payment_captured"
+  },
+  {
+   "event_id": "EVT-3189",
+   "booking_id": "PNR-5042",
+   "type": "booking_confirmed"
+  }
+ ],
+ "waitlist_queue": [
+  {
+   "booking_id": "PNR-5038",
+   "position": 9
+  },
+  {
+   "booking_id": "PNR-5092",
+   "position": 3
+  },
+  {
+   "booking_id": "PNR-5056",
+   "position": 27
+  },
+  {
+   "booking_id": "PNR-5026",
+   "position": 27
+  },
+  {
+   "booking_id": "PNR-5014",
+   "position": 15
+  },
+  {
+   "booking_id": "PNR-5062",
+   "position": 3
+  },
+  {
+   "booking_id": "PNR-5080",
+   "position": 21
+  },
+  {
+   "booking_id": "PNR-5044",
+   "position": 15
+  },
+  {
+   "booking_id": "PNR-5008",
+   "position": 9
+  },
+  {
+   "booking_id": "PNR-5012",
+   "position": 3
+  },
+  {
+   "booking_id": "PNR-5110",
+   "position": 21
+  },
+  {
+   "booking_id": "PNR-5104",
+   "position": 15
+  },
+  {
+   "booking_id": "PNR-5068",
+   "position": 9
+  },
+  {
+   "booking_id": "PNR-5050",
+   "position": 21
+  },
+  {
+   "booking_id": "PNR-5032",
+   "position": 3
+  },
+  {
+   "booking_id": "PNR-5098",
+   "position": 9
+  },
+  {
+   "booking_id": "PNR-5074",
+   "position": 15
+  },
+  {
+   "booking_id": "PNR-5002",
+   "position": 3
+  },
+  {
+   "booking_id": "PNR-5116",
+   "position": 27
+  },
+  {
+   "booking_id": "PNR-5020",
+   "position": 21
+  },
+  {
+   "booking_id": "PNR-5086",
+   "position": 27
+  }
+ ],
+ "edge_case_catalog": [
+  "Cancellation requested exactly 48.0 hours before departure (slab boundary).",
+  "Cancellation requested exactly 12.0 hours before departure (slab boundary).",
+  "Cancellation on a CHARTED booking, where nothing is refundable.",
+  "Cancellation on a COMPLETED booking, which must be ignored entirely.",
+  "Second cancellation on an already CANCELLED booking.",
+  "Cancellation of an UNPAID booking, where no money was ever collected.",
+  "Duplicate event replayed with an identical event_id.",
+  "Event with the event_id key absent, which cannot be deduplicated.",
+  "Unknown event type for a valid booking.",
+  "Event referencing a booking_id that does not exist.",
+  "Settlement with a negative amount, and with a zero amount.",
+  "Settlement of 1 paise against a booking with nothing due.",
+  "Settlement that would exceed the outstanding refundable amount.",
+  "Two partial settlements that together exactly equal the amount due.",
+  "Fare where the percentage does not divide evenly into whole paise.",
+  "Waitlist queue supplied out of position order.",
+  "Waitlist queue containing a duplicate position.",
+  "Seats available exceeding the queue length, and a zero seat count.",
+  "Booking present internally but absent from the gateway.",
+  "Booking present at the gateway but absent internally.",
+  "Record whose amount matches but whose status differs.",
+  "Record whose amount and status both differ.",
+  "Duplicate booking_id appearing twice on the internal side."
+ ]
+}

@@ -1,0 +1,9 @@
+[project]
+name = "raildesk"
+version = "0.1.0"
+description = "Simulated rail ticketing lifecycle, charges and settlement reconciliation"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
